@@ -1,0 +1,13 @@
+### EEG data parameters
+epoch_length: 1.0
+n_electrodes: 30
+freq_bands: [[4, 7], [8, 13], [14, 35], [35, 45]]
+sfreq: 500
+overlap: 0.75
+subjects: ['1000']
+##---------------------------------------------------------------------##
+# Experiment 0
+# Path
+raw_eeg_path: 'data/raw/eeg/'
+force_data_path: 'data/raw/force_data/'
+raw_eeg_data: 'data/interim/raw_eeg_exp_0_dataset.h5'
